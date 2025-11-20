@@ -61,7 +61,7 @@ variable "private_subnet_cidr_blocks" {
   ]
 }
 
-variable "ec2_instance_type" {
+variable "instance_type" {
   description = "AWS EC2 instance type."
   type        = string
 }
